@@ -1,3 +1,5 @@
+// Aqui serão configuradas todas as rotas da aplicação
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
