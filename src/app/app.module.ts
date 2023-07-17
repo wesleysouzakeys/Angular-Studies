@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 
 @NgModule({
   // declarations: serão incluídos todos os componentes, além de diretivas e pipes que estão contidos no módulo
   declarations: [
-    AppComponent
+    AppComponent,
+    CabecalhoComponent
   ],
   // imports: serão incluídos os módulos importados, tanto da própria aplicação quanto de bibliotecas externas
   imports: [
