@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
+import { RodapeComponent } from './componentes/rodape/rodape.component';
 
 @NgModule({
   // declarations: serão incluídos todos os componentes, além de diretivas e pipes que estão contidos no módulo
   declarations: [
     AppComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    RodapeComponent
   ],
   // imports: serão incluídos os módulos importados, tanto da própria aplicação quanto de bibliotecas externas
   imports: [
