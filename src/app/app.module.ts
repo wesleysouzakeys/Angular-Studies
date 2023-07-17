@@ -5,14 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
+  // declarations: serão incluídos todos os componentes, além de diretivas e pipes que estão contidos no módulo
   declarations: [
     AppComponent
   ],
+  // imports: serão incluídos os módulos importados, tanto da própria aplicação quanto de bibliotecas externas
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+  // providers: geralmente é declarado classes de serviços
   providers: [],
+  // bootstrap: propriedade exclusiva do app.module, define qual será o primeiro componente a ser renderizado na aplicação
   bootstrap: [AppComponent]
 })
 export class AppModule { }
