@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { FormsModule } from '@angular/forms';
+import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
 
 @NgModule({
   // declarations: serão incluídos todos os componentes, além de diretivas e pipes que estão contidos no módulo
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-    CriarPensamentoComponent
+    CriarPensamentoComponent,
+    ListarPensamentoComponent
   ],
   // imports: serão incluídos os módulos importados, tanto da própria aplicação quanto de bibliotecas externas
   imports: [
