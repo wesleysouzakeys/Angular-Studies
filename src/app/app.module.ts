@@ -9,6 +9,7 @@ import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensam
 import { FormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
 import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensamento.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   // declarations: serão incluídos todos os componentes, além de diretivas e pipes que estão contidos no módulo
@@ -24,7 +25,8 @@ import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensam
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   // providers: geralmente é declarado classes de serviços
   providers: [],
